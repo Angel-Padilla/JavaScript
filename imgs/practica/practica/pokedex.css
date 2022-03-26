@@ -1,0 +1,128 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: black;
+}
+.parent {
+    position: relative;
+    top: -10px;
+    width: 1000px; 
+    height: 700px;
+}
+.child{
+    width: 100%;
+    height: 100%;
+    background-image: url("./assets/pokedex.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.lala{
+    position: absolute;
+    top: 209px;
+    left: 105px;
+    height: 210px;
+    width: 314.6px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.lala img{
+    position:absolute;
+    top: -10%;
+    left: 13%;
+}
+.search{
+    height: 70px ;
+    font-size: x-large;
+    text-transform: capitalize;
+    text-align: center;
+    width: 150px;
+    position: absolute;
+    top: 83.2%;
+    left: 135px;
+    border-radius:10px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-decoration: none;
+}
+.button{
+    width: 71px;
+    height: 20px;
+    position: absolute;
+    font-weight: bold;
+    top: 73.7%;
+    left: 245px;
+    border-radius:10px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-decoration: none;
+    
+}
+
+
+.id{
+    position: absolute;
+    top: 87%;
+    left: 65.5%;
+    color: white;
+    font-weight: bold;
+}
+.especie{
+    color: white;
+    position: absolute;
+    top: 87%;
+    left: 82.7%;
+    text-transform: capitalize;
+
+}
+.habilidad{
+    height: 110px;
+    width: 315px;
+    color: white;
+    position: absolute;
+    top: 33%;
+    left: 60.7%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.estat{
+    position: absolute;
+    top: 367px;
+    left: 60.7%;
+    height: 94px;
+    width: 315px;
+    color: white;
+    display: flex;
+    margin: 0 -0px;
+    overflow: hidden;
+}
+.name{
+    font-size: small;
+    text-align: center;
+    padding-bottom: 25px;
+    position: relative;
+    top: -4px;
+    left: 0px;
+    display: flex;
+    margin: 0 -15px;
+    align-items: center;
+    text-align: center;
+}
+.amount{
+    position: relative;
+    left: -15px;
+}
+
+
+
+
+
+

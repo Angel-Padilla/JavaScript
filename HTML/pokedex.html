@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <!--link para vincular el archivo de estilos-->
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <title>Pokedex by PokeAPI</title>
+    
+</head>
+<body>
+<!--barra superior que diga el logo de Pokédex-->
+    <section id="title">
+            <img src="../imgs/pokedex_logo.png" id="pokedexLogo">
+    </section>
+<!--contenido principal-->
+    <section id="pageBody">
+        <!--en este div se ubican los elementos de la pokedex-->
+        <div id="pokedexZone">
+                <!--Div para el fondo de pantalla de la pokédex-->
+            <img src="../imgs/pokedex_logo.png" id="pokedex-display" style="background-color: rgb(31,31,30);">
+            <!--Imagen de la pokédex-->
+            <img src="../imgs/pokedex.png" id="pokedex">
+            <!--input para el nombre del pokémon-->
+            <input type="text" id="pokeName" name="searchBar">
+<!--botón para cambiar fondo de pantalla-->
+            <button id="backgroundChange">
+
+            </button>
+<!--botón para cambiar el modo de luz de la pokedex-->
+            <button id="displayMode">
+
+            </button>
+<!--desplazamiento arriba-->
+            <button id="upButton">
+
+            </button>
+<!--desplazamiento abajo-->
+            <button id="downButton">
+
+            </button>
+<!--desplazamiento derecha-->
+            <button id="rightButton">
+
+            </button>
+<!--desplazamiento izq.-->
+            <button id="leftButton">
+
+            </button>
+<!--boton tipos-->
+            <button id="typeButton">
+                <img src="../imgs/icons/types.png" style="display: block; width: 80%; margin: auto;">
+            </button>
+<!--botón busqueda-->
+            <button id="searchButton">
+                <img src="../imgs/icons/search.jpg" style="display: block; width: 65%; margin: auto;">
+            </button>
+<!--botón seleccionar-->
+            <button id="okButton">
+            
+            </button>
+<!--botón cambiar vista pokémon-->
+            <button id="viewButton">
+
+            </button>
+<!--contenido principal-->
+            <h4 id="pokeType1">
+            
+            </h4>
+<!--contenido principal-->
+            <h4 id="pokeType2">
+        
+            </h4>
+        <!--Texto informativo-->
+        <!--puede llevar imagen representativa-->
+            <div id="description-box">
+                <p>
+
+                </p>
+            </div>
+        </div>
+    </section>
+    </body>
+    <footer>
+        <script src="../JS/pokedex.js"></script>
+    </footer>
+    </html>

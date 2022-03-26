@@ -1,0 +1,149 @@
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    background-color: rgba(210,11,64,255);
+}
+section{
+    position: relative;
+}
+button{
+    position: absolute;
+    background-color: rgba(0, 0, 255, 1);
+    border-width: 0px;
+    padding: 0px;
+}
+#pageBody{
+    background-image:url("../imgs/fondo_1.jpg");
+    background-size: cover;
+    height: 90%;
+}
+#pokedexZone{
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 55%;
+    margin: auto;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+#pokedex{
+    display: block;
+    width: 100%;
+}
+#title{
+    width: 100%;
+    height: 10%;
+}
+#pokedexLogo{
+    display: block;
+    position: relative;
+    height: 90%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    margin: auto;
+}
+#searchBar{
+    position: absolute;
+}
+#pokedex-display{
+    z-index: -10;
+    position: absolute;
+    width: 32%;
+    height: 32%;
+    top: 29%;
+    left: 10%;
+}
+.pokedex-background{
+    display: block;
+    position: relative;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+}
+/*posición y tamaño de los botones*/
+#displayMode{
+    border-radius: 50%;
+    width: 4%;
+    height: 5%;
+    top: 62%;
+    left: 13%;
+}
+#backgroundChange{
+    border-radius: 50%;
+    width: 9%;
+    height: 12%;
+    top: 2%;
+    left: 7%;
+}
+#upButton{
+    border-radius: 10%;
+    width: 4%;
+    height: 5%;
+    top: 73%;
+    left: 37.5%;
+}
+#downButton{
+    border-radius: 10%;
+    width: 4%;
+    height: 5%;
+    top: 83%;
+    left: 37.5%;
+}
+#rightButton{
+    border-radius: 10%;
+    width: 4%;
+    height: 5%;
+    top: 78%;
+    left: 41%;
+}
+#leftButton{
+    border-radius: 10%;
+    width: 4%;
+    height: 5%;
+    top: 78%;
+    left: 34%;
+}
+#typeButton{
+    border-radius: 10%;
+    width: 6.3%;
+    height: 6%;
+    top: 71.5%;
+    left: 61%;
+}
+#searchButton{
+    border-radius: 10%;
+    width: 6.3%;
+    height: 6%;
+    top: 71.5%;
+    left: 67.6%;
+}
+#viewButton{
+    border-radius: 50%;
+    width: 5%;
+    height: 7%;
+    top: 71.2%;
+    left: 7.7%;
+}
+#okButton{
+    border-radius: 30%;
+    width: 6.3%;
+    height: 2%;
+    top: 74%;
+    left: 25%;
+}
+#pokeName{
+    position: absolute;
+    border: none;
+    padding: 0px;
+    width: 16%;
+    height: 11%;
+    background-color: rgba(0, 0, 255, 1);
+    border-radius: 10%;
+    left: 13.5%;
+    top: 82%;
+}
+h3, h4, #description-box{
+    background-color: blueviolet;
+}
