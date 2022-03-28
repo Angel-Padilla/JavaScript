@@ -1,3 +1,6 @@
+*{
+    text-size-adjust: 100%;
+}
 body{
     position: relative;
     height: 100vh;
@@ -10,12 +13,12 @@ section{
 }
 button{
     position: absolute;
-    background-color: rgba(0, 0, 255, 1);
+    background-color: rgba(0, 0, 255, 0);
     border-width: 0px;
     padding: 0px;
 }
 #pageBody{
-    background-image:url("../imgs/fondo_1.jpg");
+    background-image:url("../imgs/background/fondo_1.jpg");
     background-size: cover;
     height: 90%;
 }
@@ -23,7 +26,7 @@ button{
     display: block;
     position: relative;
     z-index: 1;
-    width: 55%;
+    width: 80%;
     margin: auto;
     top: 50%;
     transform: translate(0%, -50%);
@@ -54,6 +57,13 @@ button{
     height: 32%;
     top: 29%;
     left: 10%;
+}
+#display-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
 }
 .pokedex-background{
     display: block;
@@ -129,8 +139,8 @@ button{
 #okButton{
     border-radius: 30%;
     width: 6.3%;
-    height: 2%;
-    top: 74%;
+    height: 3%;
+    top: 73%;
     left: 25%;
 }
 #pokeName{
@@ -139,11 +149,80 @@ button{
     padding: 0px;
     width: 16%;
     height: 11%;
-    background-color: rgba(0, 0, 255, 1);
+    background-color: rgba(0, 0, 255, 0);
     border-radius: 10%;
     left: 13.5%;
     top: 82%;
 }
-h3, h4, #description-box{
-    background-color: blueviolet;
+#pokeType2{
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    height: fit-content;
+    width: 14.4%;
+    left: 78%;
+    top: 86%;
+}
+
+#pokeType1{
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    height: fit-content;
+    width: 14.4%;
+    left: 60.7%;
+    top: 86%;
+}
+#description-box{
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    height: fit-content;
+    width: 31.5%;
+    left: 60.7%;
+    top: 33%;
+}
+#stats{
+    position: absolute;
+    margin: 0px;
+    height: fit-content;
+    width: 31%;
+    height: 11%;
+    left: 61.3%;
+    top: 52.8%;
+}
+h4, #description-box{
+    color: #e8e8e8;
+}
+#pokeName::placeholder{
+    color: rgb(31,31,30);
+}
+.inline{
+    display: inline-block;
+    vertical-align: middle;
+}
+.stat{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    top: 0%;
+    transform: translate(-50%,0%);
+}
+.stat-icon{
+    display: block;
+    position: absolute;
+    width: 63%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+span.statV{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%,-50%);
+}
+input::placeholder{
+    text-align: center;
 }

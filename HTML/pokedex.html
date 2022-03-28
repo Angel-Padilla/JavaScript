@@ -18,68 +18,86 @@
     <section id="pageBody">
         <!--en este div se ubican los elementos de la pokedex-->
         <div id="pokedexZone">
-                <!--Div para el fondo de pantalla de la pokédex-->
-            <img src="../imgs/pokedex_logo.png" id="pokedex-display" style="background-color: rgb(31,31,30);">
-            <!--Imagen de la pokédex-->
-            <img src="../imgs/pokedex.png" id="pokedex">
-            <!--input para el nombre del pokémon-->
-            <input type="text" id="pokeName" name="searchBar">
+            <!--Div para el fondo de pantalla de la pokédex-->
+        <div id="pokedex-display" style="background-color: rgb(31,31,30);">
+            <img src="../imgs/pokedex_logo.png" id="display-image">
+        </div>
+        <!--Imagen de la pokédex-->
+        <img src="../imgs/pokedex.png" id="pokedex">
+        <!--input para el nombre del pokémon-->
+        <input type="text" id="pokeName" name="searchBar">
 <!--botón para cambiar fondo de pantalla-->
-            <button id="backgroundChange">
+        <button id="backgroundChange">
 
-            </button>
+        </button>
 <!--botón para cambiar el modo de luz de la pokedex-->
-            <button id="displayMode">
+        <button id="displayMode">
 
-            </button>
+        </button>
 <!--desplazamiento arriba-->
-            <button id="upButton">
+        <button id="upButton">
 
-            </button>
+        </button>
 <!--desplazamiento abajo-->
-            <button id="downButton">
+        <button id="downButton">
 
-            </button>
+        </button>
 <!--desplazamiento derecha-->
-            <button id="rightButton">
+        <button id="rightButton">
 
-            </button>
+        </button>
 <!--desplazamiento izq.-->
-            <button id="leftButton">
+        <button id="leftButton">
 
-            </button>
+        </button>
 <!--boton tipos-->
-            <button id="typeButton">
-                <img src="../imgs/icons/types.png" style="display: block; width: 80%; margin: auto;">
-            </button>
+        <button id="typeButton">
+            <img src="../imgs/icons/types.png" style="display: block; width: 80%; margin: auto;">
+        </button>
 <!--botón busqueda-->
-            <button id="searchButton">
-                <img src="../imgs/icons/search.jpg" style="display: block; width: 65%; margin: auto;">
-            </button>
+        <button id="searchButton">
+            <img src="../imgs/icons/search.jpg" style="display: block; width: 65%; margin: auto;">
+        </button>
 <!--botón seleccionar-->
-            <button id="okButton">
-            
-            </button>
-<!--botón cambiar vista pokémon-->
-            <button id="viewButton">
-
-            </button>
-<!--contenido principal-->
-            <h4 id="pokeType1">
-            
-            </h4>
-<!--contenido principal-->
-            <h4 id="pokeType2">
+        <button id="okButton">
         
-            </h4>
-        <!--Texto informativo-->
-        <!--puede llevar imagen representativa-->
-            <div id="description-box">
-                <p>
+        </button>
+<!--botón cambiar vista pokémon-->
+        <button id="viewButton">
 
-                </p>
+        </button>
+<!--contenido principal-->
+        <h4 id="pokeType1">
+            
+        </h4>
+<!--contenido principal-->
+        <h4 id="pokeType2">
+            
+        </h4>
+    <!--Texto informativo
+    puede llevar imagen representativa-->
+        <div id="description-box">
+            
+        </div>
+        <div id="stats">
+            <div class=" inline stat" style="left: 10%">
+                <img src="../imgs/pokemon_stats_icon/health.png" class="stat-icon">
+                <span id="healthV" class="statV"></span>
+            </div>
+            <div class=" inline stat" style="left: 30%">
+                <img src="../imgs/pokemon_stats_icon/attack.png" class="stat-icon">
+                <span id="attackV" class="statV"></span>
+            </div>
+            <div class=" inline stat" style="left: 50%">
+                <img src="../imgs/pokemon_stats_icon/defense.png" class="stat-icon">
+                <span id="defenseV" class="statV"></span>
+            </div>
+            <div class=" inline stat" style="left: 70%">
+                <img src="../imgs/pokemon_stats_icon/speed.png" class="stat-icon">
+                <span id="speedV" class="statV"></span>
             </div>
         </div>
+    </div>
     </section>
     </body>
     <footer>
